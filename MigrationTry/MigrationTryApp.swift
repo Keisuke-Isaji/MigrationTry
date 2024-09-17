@@ -1,10 +1,3 @@
-//
-//  MigrationTryApp.swift
-//  MigrationTry
-//
-//  Created by 伊佐治恵介 on 2024/09/17.
-//
-
 import SwiftUI
 import SwiftData
 

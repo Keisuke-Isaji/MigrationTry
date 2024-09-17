@@ -15,6 +15,7 @@
 		A1588E512C99247E00CDC2B6 /* MigrationTryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E502C99247E00CDC2B6 /* MigrationTryTests.swift */; };
 		A1588E5B2C99247E00CDC2B6 /* MigrationTryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E5A2C99247E00CDC2B6 /* MigrationTryUITests.swift */; };
 		A1588E5D2C99247E00CDC2B6 /* MigrationTryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E5C2C99247E00CDC2B6 /* MigrationTryUITestsLaunchTests.swift */; };
+		A1C007502C9952B000DA7B26 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0074F2C9952B000DA7B26 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A1588E562C99247E00CDC2B6 /* MigrationTryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigrationTryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1588E5A2C99247E00CDC2B6 /* MigrationTryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationTryUITests.swift; sourceTree = "<group>"; };
 		A1588E5C2C99247E00CDC2B6 /* MigrationTryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationTryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1C0074F2C9952B000DA7B26 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				A1588E3D2C99247D00CDC2B6 /* MigrationTryApp.swift */,
 				A1588E3F2C99247D00CDC2B6 /* ContentView.swift */,
 				A1588E412C99247D00CDC2B6 /* Item.swift */,
+				A1C0074F2C9952B000DA7B26 /* File.swift */,
 				A1588E432C99247E00CDC2B6 /* Assets.xcassets */,
 				A1588E452C99247E00CDC2B6 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1588E402C99247D00CDC2B6 /* ContentView.swift in Sources */,
+				A1C007502C9952B000DA7B26 /* File.swift in Sources */,
 				A1588E422C99247D00CDC2B6 /* Item.swift in Sources */,
 				A1588E3E2C99247D00CDC2B6 /* MigrationTryApp.swift in Sources */,
 			);

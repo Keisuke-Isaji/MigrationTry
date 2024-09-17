@@ -1,18 +1,15 @@
-//
-//  Item.swift
-//  MigrationTry
-//
-//  Created by 伊佐治恵介 on 2024/09/17.
-//
-
-import Foundation
 import SwiftData
+import Foundation
 
 @Model
-final class Item {
-    var timestamp: Date
-    
-    init(timestamp: Date) {
-        self.timestamp = timestamp
+class User {
+    @Attribute(.unique) var id: UUID
+    var name: String
+    var age: Int
+
+    init(id: UUID = UUID(), name: String, age: Int) {
+        self.id = id
+        self.name = name
+        self.age = age
     }
 }
